@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "baseUrl": ".",
+      "paths": {
+        "@transactions/*": ["packages/transactions/src/*"]
+      },
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true
+    },
+    "include": ["apps/**/*", "packages/**/*", "declarations.d.ts"]
+  }
+  

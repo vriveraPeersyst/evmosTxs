@@ -1,0 +1,21 @@
+{
+    "name": "tx-runner",
+    "version": "1.0.0",
+    "main": "src/main.ts",
+    "scripts": {
+      "start": "ts-node -r tsconfig-paths/register src/main.ts"
+    },
+    "dependencies": {
+      "@cosmjs/encoding": "^0.31.1",
+      "@cosmjs/proto-signing": "^0.31.1",
+      "@evmos/transactions": "0.2.13",
+      "@transactions": "workspace:*",
+      "axios": "^1.6.7",
+      "dotenv": "^16.3.1"
+    },
+    "devDependencies": {
+      "ts-node": "^10.9.2",
+      "tsconfig-paths": "^4.2.0"
+    }
+  }
+  

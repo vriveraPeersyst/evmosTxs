@@ -1,0 +1,11 @@
+packages:
+  - apps/*
+  - packages/*
+
+onlyBuiltDependencies:
+  - '@evmos/eip712'
+  - '@evmos/proto'
+  - '@evmos/transactions'
+  - keccak
+  - protobufjs
+  - secp256k1

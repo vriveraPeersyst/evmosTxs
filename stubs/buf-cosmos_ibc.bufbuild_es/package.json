@@ -1,0 +1,6 @@
+{
+    "name": "@buf/cosmos_ibc.bufbuild_es",
+    "version": "0.2.1",
+    "main": "index.js"
+  }
+  
