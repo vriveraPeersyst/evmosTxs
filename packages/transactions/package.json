@@ -1,18 +1,21 @@
 {
-    "name": "@transactions",
-    "version": "1.0.0",
-    "main": "src/index.ts",
-    "types": "src/index.ts",
-    "exports": {
-      "./services/send-xrp.service": "./src/services/send-xrp.service.ts",
-      "./factories/wallet.factory": "./src/factories/wallet.factory.ts"
-    },
-    "dependencies": {
-      "@evmos/transactions": "0.2.13",
-      "@evmos/proto": "0.2.1",
-      "axios": "^1.6.7",
-      "@cosmjs/proto-signing": "^0.31.1",
-      "@cosmjs/encoding": "^0.31.1"
-    }
+  "name": "@transactions",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    "./services/send-xrp.service": "./src/services/send-xrp.service.ts",
+    "./factories/wallet.factory": "./src/factories/wallet.factory.ts"
+  },
+  "dependencies": {
+    "@cosmjs/crypto": "^0.33.1",
+    "@cosmjs/encoding": "^0.31.1",
+    "@cosmjs/math": "^0.33.1",
+    "@cosmjs/proto-signing": "^0.31.1",
+    "@evmos/proto": "0.2.1",
+    "@evmos/transactions": "0.2.13",
+    "axios": "^1.6.7",
+    "cosmjs-types": "^0.9.0",
+    "long": "^5.3.1"
   }
-  
+}

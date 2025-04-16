@@ -22,7 +22,8 @@
         "@buf/evmos_evmos.bufbuild_es": "file:./stubs/buf-evmos_evmos.bufbuild_es",
         "@buf/cosmos_cosmos-sdk.bufbuild_es": "file:./stubs/buf-cosmos_cosmos-sdk.bufbuild_es",
         "@buf/cosmos_cosmos-sdk.bufbuild_es@0.2.1": "file:./stubs/buf-cosmos_cosmos-sdk.bufbuild_es",
-        "@buf/cosmos_ibc.bufbuild_es": "file:./stubs/buf-cosmos_ibc.bufbuild_es"
+        "@buf/cosmos_ibc.bufbuild_es": "file:./stubs/buf-cosmos_ibc.bufbuild_es",
+        "@cosmjs/crypto": "0.31.3"
       }
     }
   }
